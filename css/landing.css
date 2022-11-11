@@ -12,6 +12,7 @@
   background-image: url(/image/tsl_rosemary.png);
   background-size: 100%;
   background-position: 50%;
+  background-repeat: no-repeat;
   
 }
 
@@ -49,7 +50,7 @@
 
 .site_descrip {
   font-family: sans-serif;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 20px;
 
   background: none;
