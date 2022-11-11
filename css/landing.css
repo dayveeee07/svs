@@ -1,0 +1,74 @@
+.landing_page {
+  position: relative;
+  display: flex;
+
+
+  max-width: 100%;
+  height: 75vh;
+  margin-top: 10px;
+
+
+
+  background-image: url(/image/tsl_rosemary.png);
+  background-size: 100%;
+  background-position: 50%;
+  
+}
+
+.product_preview_container {
+
+}
+
+.product_preview_container img{
+  max-width: 100%;
+  height: 100px;
+  object-fit: covr;
+  
+
+}
+
+.landing_text {
+  position: absolute;
+  background: none;
+
+  width: 400px;
+  height: 50%;
+  top: 150px;
+  left: 150px;
+
+}
+
+.site_title {
+  background: none;
+  color: white;
+
+  font-size: xxx-large;
+  font-weight: bold;
+
+}
+
+.site_descrip {
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  background: none;
+  color: white;
+}
+
+.buy_now_btn {
+  color: white;
+  background-color: #3A97A7;
+
+  display: flex;
+  padding: 15px 30px;
+
+  border-radius: 15px;
+}
+
+.buy_now_btn:hover {
+  cursor: pointer;
+  background-color: #52aebe;
+  transition: 0.5s;
+}
+
