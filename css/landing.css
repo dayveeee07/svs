@@ -52,7 +52,7 @@
   background-color: #4ac5db;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 40rem) {
 
  .container {
   display: flex;
