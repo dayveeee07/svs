@@ -168,10 +168,3 @@
     display: flex;
   }
  }
- 
- 
- @media (max-width: 457px) {
-  .navbar {
-   width: 100%;
-  }
- }
