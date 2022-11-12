@@ -1,75 +1,82 @@
-.landing_page {
-  position: relative;
+#hero {
+
+  width: 100%;
+  height: 74vh;
+
+
+
+  background:linear-gradient(rgba(0, 0, 0, 0.096),
+   rgba(0, 0, 0, 0.363)), url('/image/tsl_rosemary.png') 
+  no-repeat center / cover;
+
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+
   display: flex;
-
-
-  max-width: 100%;
-  height: 75vh;
-  margin-top: 10px;
-
-
-
-  background-image: url(/image/tsl_rosemary.png);
-  background-size: 100%;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  
+  align-items: center;
+  justify-self: center;
 }
 
-/* .product_preview_container {
-
-} */
-
-.product_preview_container img{
-  max-width: 100%;
-  height: 100px;
-  object-fit: covr;
-  
-
+.container .info h1 {
+  max-width: 20rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-.landing_text {
-  position: absolute;
-  background: none;
+.container .info p {
+  max-width: 20rem;
+  margin-bottom: 2rem;
 
-  width: 400px;
-  height: 50%;
-  top: 150px;
-  left: 150px;
-
-}
-
-.site_title {
-  background: none;
-  color: white;
-
-  font-size: xxx-large;
-  font-weight: bold;
-
-}
-
-.site_descrip {
   font-family: sans-serif;
-  margin-top: 15px;
-  margin-bottom: 20px;
-
-  background: none;
-  color: white;
 }
 
-.buy_now_btn {
-  color: white;
-  background-color: #3A97A7;
+.container .info a {
+  text-decoration: none;
 
+  background-color:  #37b4ca;
+  border-style: none;
+  border-radius: .75rem;
+
+  padding: .8rem 1.5rem;
+
+  font-family: sans-serif;
+}
+
+.container .info a:hover {
+  background-color: #4ac5db;
+}
+
+@media (max-width: 768px) {
+
+ .container {
   display: flex;
-  padding: 15px 30px;
+  justify-content: center;
+  align-self: center;
+ } 
 
-  border-radius: 15px;
+.container .info h1 {
+  
+  max-width: 100%;
+  font-size: 1.5rem;
 }
 
-.buy_now_btn:hover {
-  cursor: pointer;
-  background-color: #52aebe;
-  transition: 0.5s;
+.container .info p {
+  font-size: .9rem;
+  text-align: center;
 }
+
+.container .info a {
+  font-size: small;
+  margin-left: 6.15rem;
+
+  padding: .7rem 2rem;
+}
+}
+
 

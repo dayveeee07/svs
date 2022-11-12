@@ -8,7 +8,7 @@
   <title>SARCA VIRTUAL SHIPYARD</title>
 
   <link rel="stylesheet" href="css/body.css">
-  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/header.css"> 
   <link rel="stylesheet" href="css/landing.css">
 
   <link rel="icon" href="image/favicon.png">
@@ -17,57 +17,151 @@
   <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
 
+  
+
 </head> 
 
 <body>
 
 <!-- NAV -->
 
-<nav>
+<header>
   <div class="navbar">
-    <div class="navbar_container">
-      <img src="image/sarca.png" alt="sarca" id="logo">
-      <div class="name">
-        SARCA VIRTUAL SHIPYARD
+    <!-- <div class="navbar_container"> -->
+      <div class="logo_title">
+      <div class="img_logo">
+        <img src="image/sarca.png" alt="sarca" id="logo">
+      </div>  
+        <div class="name">
+          SARCA VIRTUAL SHIPYARD
+        </div>
       </div>
 
+      <!-- HAMBURGER MENU -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <!-- HAMBURGER MENU END -->
 
       <ul class="navbar_menu">
-        <li class="navbar_items">SHIPS</li>
-        <li class="navbar_items">SCENERIES</li>
-        <li class="navbar_items">ABOUT</li>
-        <li class="navbar_button">CONTACT ME</li>
+        <li class="navbar_items"><a class="navbar_links" href="ships.html">SHIPS</a></li>
+        <li class="navbar_items"><a class="navbar_links" href="sceneries.html">SCENERIES</a></li>
+        <li class="navbar_items"><a class="navbar_links" href="about.html">ABOUT</a></li>
+        <li class="navbar_items"><a class="navbar_links" href="contact me.html">CONTACT ME</a></li>
       </ul>
+    <!-- </div> -->
+  </div>
+</header>
+
+<!--HERO PAGE -->
+  <section id="hero">
+    <div class="container">
+      <div class="info">
+        <h1>Ship Add-on's for VSNG & VSF</h1>
+        <p>Quality and optimized add-ons for simulation</p>
+        <a href="/shipyard.html ">SHIPYARD </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </section>
+<!-- HERO END -->
 
-<!-- LANDING PAGE -->
+<!-- LATEST RELEASE -->
+  <section class="latest_release">
+    <div class="latest_release_title">
+      <H1>FEATURED ADD-ON'S</H1>
+    </div>
+    <div class="latest_release_container">
 
-<section class="landing_page">
-  <div class="product_preview_container">
-    <!-- <img src="image/tsl_rosemary.png" alt="/" class="product_preview"> --> 
-    <span class="landing_text">
-      <h2 class="site_title">
-        Ship Add-on's for VSF and VSNG
-      </h2>
-      <p class="site_descrip">
-        Quality and optimized add-ons for simulation
-      </p>
-      <button class="buy_now_btn">
-      SHIP YARD
-      </button>
-    </span>   
+       <!-- IMAGES 01-->
+      <div class="product_overview">
 
-  </div>
-</section>
+        <div class="image_container">
+          <a href="/"><img class="product_img" 
+          src="image/rosemary.png" alt="ROSEMARY"></a>
+           <!-- OVERLAY --> 
+           <a href="ship-info.html">
+          <div class="text_overlay">
+            <H3 class="overlay_title">TSL Rosemary (IMO:9527192)</H3>
+            <p class="overlay_info">$20.99</p>
+          </div>
+        </a>
+            <!-- OVERLAY -->
+        </div>
 
-<!-- LANDING PAGE END -->
+
+        <div class="product_info">
+          <a href="/ship-info.html" class="product_info"> TSL Rosemary (VSNG & VSF add-on) </a>
+        </div>
+
+      </div>
+      <!-- IMAGES 01-->
+
+     <!-- IMAGES 02-->
+             <div class="product_overview">
+
+              <div class="image_container">
+                <a href="/"><img class="product_img" 
+                src="image/sarca nt.png" alt="ROSEMARY"></a>
+                 <!-- OVERLAY --> 
+                 <a href="ship-info.html">
+                <div class="text_overlay">
+                  <H3 class="overlay_title"> Theresian Stars 2.0</H3>
+                  <p class="overlay_info">ETA</p>
+                </div>
+              </a>
+                  <!-- OVERLAY -->
+              </div>
+      
+      
+              <div class="product_info">
+                <a href="/ship-info.html" class="product_info"> Theresian Stars 2.0 (VSNG & VSF add-on) </a>
+              </div>
+      
+            </div>
+        <!-- IMAGES 02-->
+
+        <!-- IMAGES 03-->
+             <div class="product_overview">
+
+              <div class="image_container">
+                <a href="/"><img class="product_img" 
+                src="image/sarca nt.png" alt="ROSEMARY"></a>
+                 <!-- OVERLAY --> 
+                 <a href="ship-info.html">
+                <div class="text_overlay">
+                  <H3 class="overlay_title">M/V Apekop 2 </H3>
+                  <p class="overlay_info">ETA</p>
+                </div>
+              </a>
+                  <!-- OVERLAY -->
+              </div>
+      
+      
+              <div class="product_info">
+                <a href="/ship-info.html" class="product_info"> M/V Apekop 2 (VSNG & VSF add-on) </a>
+              </div>
+      
+            </div>
+        <!-- IMAGES 03-->
+
+
+
+      
+
+    </div>  
+
+  </section>
+
+
+
+
+<!-- LATEST RELEASE END-->
+
 
   
+<script src="script.js" defer></script>
+
 </body>
-
-
-
-
 </html>
