@@ -100,7 +100,7 @@
   transition: all 0.3s ease;
   background-color: white;
 }
- @media (max-width: 40rem) {
+ @media (max-width: 480px) {
   .hamburger {
     display: block;
     margin-left: 20rem;
