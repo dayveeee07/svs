@@ -115,7 +115,7 @@ b {
   font-weight: lighter;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 40rem) {
   .latest_release {
     display: flex;
     flex-direction: column;
