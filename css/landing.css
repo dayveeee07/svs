@@ -52,12 +52,12 @@
 }
 
 @media (max-width: 768px) {
-
+/* 
 #hero {
   background-size: cover;
 
   height: 50vh;
-}
+} */
 
  .container {
   display: flex;
@@ -84,4 +84,9 @@
 }
 }
 
+@media (max-width: 500px) {
+ #hero {
+  height: 55vh;
+ }
+}
 
