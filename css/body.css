@@ -7,7 +7,26 @@
   box-sizing: border-box;
 
   color: white;
+
+  /* remove blue outline on click - mobile */
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+
+a:focus, 
+a:visited,
+a:active{
+  outline: none;
+}
+
 
 b {
   background-color: #0f2d32;
@@ -205,7 +224,7 @@ b {
 
   .product_overview {
     position: relative;
-    width: 80%;
+    width: 70%;
     height: 25rem;
 
 
