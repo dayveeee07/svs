@@ -42,7 +42,7 @@
 }
 
 #logo {
-  scale: 82%;
+  scale: 62%;
   cursor: pointer;
 
   height: 100%;
@@ -50,7 +50,7 @@
 }
 
 .name {
-  font-size: 20px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 300; 
 
