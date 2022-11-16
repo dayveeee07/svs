@@ -58,6 +58,10 @@
   cursor: pointer;
 }
 
+.name a {
+  text-decoration: none;
+}
+
 .navbar_menu {
 
   display: flex;
@@ -127,6 +131,8 @@
 
     margin: 0;
     box-sizing: border-box;
+
+ 
   }
 
 
@@ -141,6 +147,8 @@
     text-align: center;
     transition: 0.3s;
     left: 0;
+
+    z-index: 999;
   }
 
   .navbar_items {
