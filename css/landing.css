@@ -92,3 +92,17 @@
  }
 }
 
+@media (max-width: 360px) {
+  #hero h1 {
+   font-size: 1rem;
+   margin-left: 1.8rem;
+  }
+
+  #hero a {
+    margin: 0;
+
+    margin-left: 3.5rem;
+
+  }
+}
+
